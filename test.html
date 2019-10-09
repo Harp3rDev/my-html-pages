@@ -1,64 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Harp3r's page</title>
-     <style>
-         .music{
-             display: none;
-         }
-    h1 {
-        color:pink;
-    }
-    body {
-        background:yellow;
-        font-family: cursive
-    }
-    #frick{
-        color:orange;
-    }
-    cool {
-        color:blue;
-    }
-    img{
-        top:10px;
-    }
-    a:hover {
-        background-color:orangered; }
-    </style>
-    <script> 
-    alert("hi welcome to my page, you is is be is is be yes is we can has can yes is be it.")
-    var chaindate = 0;
-var fruits = ["chaindaitez", "dipsy-dowen", "pu pu pu punch"]
-Text(fruits[0], 100, 200, 300);
-Text(fruits[1], 150, 250, 350);
-    </script>
-</head>
-<body>
- 
-        
-              
-                <audio  autoplay>
-                    
-                    <source src="song.mp3">
-                        Your browser does not support the
-                        <code>audio</code> element.
-                </audio>
-                
-<h1>Hello World!</h1>   
-<p id="frick">I am here!</p> 
-<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAKAAagMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAEAAMFBgEHCAL/xAA9EAABAwIEAwUGBQIEBwAAAAABAAIDBBEFEiExBkFhExQiUXEHMoGRscEVI0JSoSThYnKi8QgWQ2OSwtH/xAAaAQACAwEBAAAAAAAAAAAAAAACAwABBAUG/8QAJxEAAgICAQMDBAMAAAAAAAAAAAECEQMSIQQiMQUTQQZRgbEkMmH/2gAMAwEAAhEDEQA/ANuNi1Q+K4jTYPSGoqXc7NYN3FSDBdaN4y4qqcXxOdkRDKaJ5DDzI2us6gkxrk2iZ4i40ra5sjI5nQ050EUTrXHV25VHqa4583YDKdzfVR8lVcmz9ehXqKZsmjrnzum3QFWSEPdam4vkk3LSdD6LzJmppQ2TxxO91x1QZgMTg+M+Em9lIRPFRFkl1BVbl6GWS9m0Fp8I3adipzC8arcPcO41ksYPiDQ7wnpZQQp3tOS+vLqF5ha5jXMNwWkEdNUSmC4cmz8N9ozpSyKow8SSDR7o5LX6htldMOxKkxKIPppNSNWO0c31C0DTufHO2QHW6tuEYvJHLHe7XDaQH3v77pclFhJyRtshNOaTyQ2D1vfaZj3EE7EhSmQeSToHsBhpHJO6p/IPJYyKaMrYqvtCx44Bw3LJA/LVVB7GEt94X95w9B/JC0FPUOe03sCeX3KuvtpxZtVxHHRteAyhiLNHbufZzrj4NVAgiM13Rsv1GycUlZ5DCXG418wjKWBznAjT0RNHh0jyMzb+is2H4M7KDlsEtyHwxkPTUslgRr6oxtHYXy26Kwx4XlGgBWZKIAaNPzQOQ5Y0V/LawJHT/dJ7Q8AtAuOY+iOq6OzSRuop5kidsQrUxcsX2MuZlNgbB31T1NM5sjRcb+dkHK4v9w2vy5FeGCZlRHcEX2JRrkU1RuHgmV7aXLOx4zEZTbT5q6jUBVXhahrRQwzTPhLXMBAaDced/NWmO9hfdFBcipHpKwSSTaBOSquqNdiFRWVMpMk0jpHAEm7nG5O3mrNw/QNmbmkBDBqq6/Dp45RqwuABc1l/CTy18lZsKY/sgyx8yOSXOSSHQgybhiphJljaCBsp+mjaYbgAAKJp4mtaCBrZEyVslNF+Wy5A2OiRbZq4XBItdFez7D4pmpayxyG91Au4gkheRV0bt9gCn4cZpZ/c8HQlCw4hvYB41QU+HQu3sT5Ix0wijD3m17FRNXjMEUlmWcB6n6IWgmzHcYxJYW8tkPWUzXTxNAG6Lpq01VnNjFxqLXH1CbmJ/FqVm2c69Nk6HBnyUzbfCUwmwSA/tLm/IqbuqpwdM1lDUQC47Ocuuf8AFr9lYWzdUe7iZdbCkrocyjzWO2U90rU0PVwsidUSStAAeTcN1TmE+KISFtg7kRspDEWx99qYng5TKdPPXX7INz7PvTgMaHZSEqTp0b+GlIlI43yt/Jc245/ZA1OHVNU5zaytkgYPd7vufV1rhHUEmV+Ua33JUt2ETm7C/wA0CsurKZ/y9SQhxGL1srjsJJC6x+Scjw3s6iOXO5+ljmaArJOYYgbRsafO2qj+1hnkDYpQ435K5NvyFGCiP41C9+FtbGQ1zrC9tlXfweokeCzExS22uwEfZW6vb/SRg22uQo+h7KcXBEjSdOinMWStiNp6fE6KSPJWRVbTo4ZA0gdCniHPxGmlePEwnMPJTboWNZYNDbcgot+RlS1nQjXyRpuxOSNIn+FJXyV88jXWjLCBY6HUcun3VoE0g/UozCKTusdyCPAALo0uW2MFXJzJT7uB7vEn7ku8yfuTGZYzq/biD7kjWOJYxDT43URSWa1zxZ52DuaxNLTvkc2mkDh7xA/Tf/ZBvwN2M11XA8luQk5iOZvZPVUApg1wFr2B+Swyhfczp4snGgdTyujYDqbhEOxgQRkvc1luZNlH082ZjNehTjsK7R7JgW9oDpn1A62SW+aNUfFsZknqMUe4Nc6OPkbaleqfFIMPkhiqKWZhYLGXL4fW6dbLV00xirKJ+T9E8IzNcLX9QdNii5GQPu2aOVt9CDEUcYtFOaY7VY1QuikdmJFrBrRcn081X5J5oJnVlK17YyQXRefX1UjHhtLcOp4pXh2rTHGSPLkmGVAnmfT0lPJIY7Zy9pa1vS559FJxk0VGUUyQpMZbPA1wcDcIzC6QV+KRaE3302A3/hQsOHthkkkmvHnObK3WxV64Jpo+4y1RYO1MhYHHe2mnzRYVtKhfUzUIWTc3NDO0Rkw3QbwujZxaPBdZec6w5N/FSy6Kbx3i1PwlOcQppA6tqx4abkQP1HyH1QeOUVZSUcLcQAFS+Fkxy7a7j4G4+C1jWYxUY5xLHiOJOzOknZdt9GsDh4R0sunOL8A/GMJvTtHeoQXRj9w5t+P1ASpxUoujRinpJJmmqKpLX5b6FWOgkDhqbnkqtPE+mqCC0hzDsVM0NW10bXA2IK57VM6sZWiytc5tmgg9DsVlmKil0d2kLxzGrfkboaOaOSJrswuvfZsm95NUmitUxyXGWyR5YppXNAsGsAb/ACEBHd+ga1jd7NGiekgY3np6pud7YmZW2DipJtoqlHwD1j2AaC7th6rYOA0Rw/CKaneLSBuaT/MdT9bfBVfhDCDiNf3+dv8ATU7vADtJJ/8ABv62V8LE7p4UtjD1eTZ6IDm2Qb7qRlZog5GarRZjoDfdNaop7dE1kVojOV12FwhibcY4aw3EAdZ6djnf5rWP8rjxdBf8P2Nip4fqMKlfeSklJYL65Ha/W6pcjJ/csfHHBTMU7Svw0BtXa8kewl69HfVanmjnoZnMc1zLGzmuFiD5FdHqucT8KUeMsdJlEdSBpIBv0PmlTxqQ7FmceGaWhxaWDbxNPJFM4jaAQbt62TuM8OzYZUuiqIi08jyIUUaOMcrdVkl28M6EXfKJA8RGUhsbT1KHxPGhRUfe6hkjoy8M8A3J1sDsDYE/BTXC/B82Lyh7h2VK0+KXmejU/wC2/D6bDOC8MpaOIRxtrxoNyezfqTzKdjwOXdLwZ83UKL1Xk2BwhiuDYvgsMmAytdTRtDTHfxxnycOR59d1Nltt1yFhOMYjg9SKnC6yamnb+qN1r9CNiPVbQ4b9ttTEGQ8R0LZmbd4pRld6lp0PwstLXHBirk3PKEFJuo/BONOHcfYPw3E4XSkX7GQ5Hj4H7KSmFigslAzwmsqIcm1exNTkxXj2P42MH4yp2SvyQ1g7BxOwcfd/nT4qjr3E90cjXscWuabhw3BHNEnTLatUdrxnMwHzXvdVj2eY+3iPhWhrifznMyzDye02d9L/ABU5X18VDHd13yO9yNu5/srYuKBsfpsOmoX/AIlEHs/SGjxX6dVqymwuFuJh88Ur6QOv2RIDj5Xd/ZT2NT46J5Kx1RIYnusA0WazyFj9VjDpX19FLLPYzRPsXAWuF5n1Lrs8MtVSR2ulwxWO7uy74ZJRS0je4tDGN07MCxYtbe38B3C1N/hq2n/S4fdSWGV1XhmKx1T2u7s85JRyaw8/UGxUZ7dfzOFwR+mZjv5t916PpJZMmHbIqdHHzRUcvHg0BzWEklYZkG2o3VkwXjriPBsraXE5XxD/AKVR+Y0/PUfBVpJQhunh/wBsNHNlix6idTuOhng8TfUjcfyrs3jHhZzQ4Y7Q2IvrJZcwJIHBMuxJJJIyjbXsE4iNFX1mDSEZaj86G5/UBZ38W/8AFb6DGyx5rDNvfmuO8BxOTBsYo8Qhvmp5Q4gcxsR8QSF1zglZHXYfBUwPDo5Y2vaRzBFwmLmIqXDs8VjomUtT3kNDWMzG+2nNUqhhNG2hjOb+peTN4jYAtOUfNTvFErxIYg4gSeG3mOaHxBrHRQdmPHmaRbovKfUGes0Yf5+zs+nx7LfyHwULZaZnbFpa5gvYbKsceYW+swR1GbljAWtd5ixLfpZXLBZhPTOAt4JXMPzv90JxDAIhE9oORzsrhy1Xqukn7mGMvlpHHypxm4v4ZyWdDrusI7G6Y0mM19ORbsqiRnycUCgGCSSSUIJJJJQgkkklCGQuhPYNj/f8AkwqV15qB1hc7xuuW/I3HyXPSuHsqx/8A4zo5pX5aap/ppyf2u2PwcG/yii6AmridBcURXqqU8i4/QoaoLmQXj0dbdSPEouaJ3/cI/0lAy6xarxP1A/5v4R2fT3eBC4QlEVRU0kjtZPzmnzOx/8AVTGPwdph8lhctId8iqjNUOoaumq4vejfcgc28x8lfC5lVSh7CHMkZcHzBXoPQer9zAoPzH9HP9Rxa5Nl8nKftIg7DjTEhawe9rx1u0fe6rKuntbiMHGlTG7lGy3pqqWutP8AsxEfCEkkkhLEkkkoQ//Z" alt="donald trump's ugly ass face">
-<p><span id="cool">I was made for this beautiful world!</span></p>
-<table>
-    <thead></thead>
-    <tbody>
-            <td>frick</td>
-    </tbody>
+<html>
+<style>
+body {
+	background-color: lightblue;
+}
+span {
+font-family: cursive;
+}
+   </style>
+   <body>
 
-</table>
-<a href="https://www.youtube.com/watch?v=thDSTsuvts0&list=PL--6CvDPcvWZwHHmTGKHhGePgx8iScqJJ">playlist of great stuff?</a>
+<audio src="blickerbruh.wav" autoplay="true"  preload="auto" autobuffer></audio>
+<marquee scrollamount="20" direction="right" behavior="alternate"><img src="https://media.giphy.com/media/OBwpMhzwuckgg/giphy.gif">
 
-</body>
-</html>
+</marquee>
+<marquee scrollamount="10" direction="center" behavior="alternate">
+    
+    <span  style="background:url(https://farm4.static.flickr.com/3618/3697567056_45ae16f677_o.gif")> <a target="_blank" href="https://www.youtube.com/channel/UCw1KxxK6Dv6QRWr5q0AFLQg"</a>
+    you got monked! fuck you</span></marquee>
+    </body>
+    </html>
